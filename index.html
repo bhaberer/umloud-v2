@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Ümloud! | A Rock Band Night for Child's Play Charity — Ümloud!</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--  <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
+
+  <!-- STYLES -->
+  <link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+  <script type="text/javascript">
+    less = {
+        env: "development", // or "production"
+        async: false,       // load imports async
+        fileAsync: false,   // load imports async when in a page under 
+                            // a file protocol
+        poll: 1000,         // when in watch mode, time in ms between polls
+        functions: {},      // user functions, keyed by name
+        dumpLineNumbers: "comments", // or "mediaQuery" or "all"
+        relativeUrls: false,// whether to adjust url's to be relative
+                            // if false, url's are already relative to the
+                            // entry less file
+        rootpath: ""// a path to add on to the start of every url 
+                            //resource
+    };
+  </script>
+
+  <script type="text/javascript" src="js/less-1.3.3.min.js"></script>
+</head>
+<body>
+
+  <header style="margin-top: -65px">
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <a class="brand" href="#">
+            <img src="img/umloud_logo_home.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!--
+  <div class="logo-small"><div class="container"><img src="img/umloud_logo_base.png"></div></div>
+-->
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="nav-collapse collapse">
+          <ul class="nav" style="margin-left: 400px;">
+            <li class="active"><a href="#about">About</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+          <ul class="nav pull-right">
+            <li class="divider-vertical"></li>
+            <li><a href="#">Sign in</a></li>
+            <li class="divider-vertical"></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel
+  ================================================== -->
+  <div id="u_carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/carousel_03.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Rock out for charity.</h1>
+            <p class="lead">Each December, gamers perform at San Francisco's DNA Lounge to raise money for children's hospitals worldwide.</p>
+            <a class="btn btn-primary" href="#">Learn more</a>
+          </div>
+          <div class="carousel-photo-credit">
+            <p>Photo by <a href="#" target="_blank">Noel Holmes</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/carousel_01.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Thanks for a great show!</h1>
+            <p class="lead">We've raised more than $40,000 for children's hospitals at our last show in 2012. Thanks to everyone who made it a success!</p>
+            <a class="btn btn-primary" href="#">Learn more</a>
+          </div>
+          <div class="carousel-photo-credit">
+            <p>Photo by <a href="#" target="_blank">Noel Holmes</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/carousel_05_shirts.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Buy a band T-shirt!</h1>
+            <p class="lead">Can't get enough of your favorite headliner band (and special guest) of Umloud! 2012? Show your support by buying a t-shirt!</p>
+            <a class="btn btn-primary" href="#">Shop</a>
+          </div>
+          <div class="carousel-photo-credit">
+            <p>Logos designed by <a href="#" target="_blank">Dennis Carpentier</a> and <a href="#" target="_blank">Anne Tsuei</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/carousel_04.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Support a good cause.</h1>
+            <p class="lead">We're looking for sponsors and volunteers for Ümloud! 2013. Would you like to help out?</p>
+            <a class="btn btn-primary" href="#">Contribute today</a>
+          </div>
+          <div class="carousel-photo-credit">
+            <p>Photo by <a href="#" target="_blank">Brian Haberer</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#u_carousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#u_carousel" data-slide="next">&rsaquo;</a>
+    <div class="carousel-inner-shadow"></div>
+  </div><!-- /.carousel -->
+
+
+  <!-- Marketing messaging -->
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row" style="margin-bottom: 30px;">
+      <div class="span4">
+        <h2>Donate</h2>
+        <p><a href="http://childsplaycharity.org/" target="_blank">Child's Play</a> is a charity that raises money for sick kids around the world. Proceeds from Umloud! are donatd to Child's Play and in addition, a portion is also donated locally to the <a href="" target="_blank">Oakland Children's Hospital</a>.</p>
+         <a href="" class="btn" target="_blank">Donate now &raquo;</a>
+      </div><!-- /.span4 -->
+      <div class="span4 offset1">
+        <h2>Venue</h2>
+        <p>DNA Lounge is a really cool nightclub spot in San Francisco's SOMA district and has hosted Umloud! since its inception in 2009. <a href="http://dnalounge.com/" target="_blank">Visit DNA Lounge &raquo;</a></p>
+      </div><!-- /.span4 -->
+      <div class="span2 offset1">
+        <h2>Follow us</h2>
+        <p>
+          <div class='badges'>
+            <a href="http://facebook.com/Umloud"><img alt="Ümloud! on Facebook" src="http://assets.umloud.org/assets/layout/facebook_icon_x32-eb9c2dc564c9881ee36aceba09258dec.png" title="Ümloud! on Facebook" height='32' width='32' /></a>
+            <a href="http://twitter.com/Umloud"><img alt="Ümloud! on Twitter" src="http://assets.umloud.org/assets/layout/twitter_icon_x32-d0a5ea10afb13c298d7dd9ca5d7b1e01.png" title="Ümloud! on Twitter" height='32' width='32' /></a>
+            <a href="https://plus.google.com/u/0/b/109501252957679234007/?prsrc=3" style="text-decoration: none;"><img alt="Ümloud! on Google+" height="32" src="https://ssl.gstatic.com/images/icons/gplus-32.png" style="border: 0;" title="Ümloud! on Google+" height='32' width='32' /></a>
+            <a href="http://www.flickr.com/groups/1273823@N24/"><img alt="Ümloud! on Flickr" src="http://assets.umloud.org/assets/layout/flickr_icon_x32-c27bc2fdea4f772f00036074ee700cb9.png" title="Ümloud! on Flickr" height='32' width='32' /></a>
+            <a href="http://www.youtube.com/user/UmloudSF"><img alt="Ümloud! on YouTube" src="http://assets.umloud.org/assets/layout/youtube_icon_x32-529ba629c929030cc568e36c2da8637d.png" title="Ümloud! on YouTube" height='32' width='32' /></a>
+            <a href="http://feeds.umloud.org/umloud"><img alt="The Ümloud! Blog" src="http://assets.umloud.org/assets/layout/feed_icon_x32-703d67259c3c4e4a462727ee852a1a8e.png" title="Subscribe to the Ümloud! Blog" height='32' width='32' /></a>
+          </div>
+        </p>
+      </div><!-- /.span4 -->
+    </div><!-- /.row -->
+
+   <div class="row">
+      <div class="span12">
+        <h2>Sponsors</h2>
+        <a href="#"><img src="img/mockup_sponsors.png" alt="sponsors image for mockup purposes only" /></a>
+      </div>
+    </div><!-- /.row -->
+
+
+  </div><!-- /marketing -->
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <small>
+          <div class="span4">
+            <p>
+              info@umloud.org
+              &middot; 510.269.ROCK
+            </p>
+            <p>
+              <a href="/tos">Terms of Service</a>
+              &middot; <a href="/m">Mobile Site</a>
+              &middot; <a href="/press">Press Information</a>
+            </p>
+          </div>
+          <div class="span5 pull-right">
+            <p>
+              Produced by Ümloud!, a non-profit, non-stock corporation in the State of California, USA. Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 License</a>.
+            </p>
+            <p>
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+            </p>
+          </div>
+        </small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
